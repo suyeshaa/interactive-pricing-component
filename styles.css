@@ -128,6 +128,11 @@ body {
   outline: none;
   border: none;
   margin-top: 15px;
+  box-shadow: 0 5px 15px 0 rgba(31, 30, 30, 0.5);
+}
+
+.btm_btn button:hover {
+  background-color: hsla(227, 35%, 25%, 0.822);
 }
 
 .one,
