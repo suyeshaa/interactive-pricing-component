@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interactive Pricing Component</title>
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Simple, traffic-based pricing</h1>
+      <p>Sign-up for our 30-day trial. No credit card required</p>
+
+      <div class="main">
+        <div class="contain">
+          <div class="part1">10K PAGEVIEWS</div>
+          <div class="part2">
+            <div class="div1">$<span>8.00</span></div>
+            <div class="div2">/month</div>
+          </div>
+        </div>
+        <div class="slider">
+          <input
+            type="range"
+            min="0"
+            max="100"
+            value="0"
+            class="range_slider"
+          />
+        </div>
+
+        <div class="btm">
+          <div class="one">Monthly Billing</div>
+          <div class="toggle_btn">
+            <div class="inner_circle"></div>
+          </div>
+          <div class="two">Yearly Billing</div>
+          <div class="three">-25% <span>discount</span></div>
+        </div>
+      </div>
+      <div class="bottom">
+        <div class="dissect1">
+          <div class="cont">
+            <img src="images/icon-check.svg" />
+            <p>Unlimited websites</p>
+          </div>
+          <div class="cont">
+            <img src="images/icon-check.svg" />
+            <p>100% data ownership</p>
+          </div>
+          <div class="cont">
+            <img src="images/icon-check.svg" />
+            <p>Email reports</p>
+          </div>
+        </div>
+        <div class="btm_btn">
+          <button>Start my trial</button>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="main.js"></script>
+</html>
